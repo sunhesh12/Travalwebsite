@@ -1,0 +1,123 @@
+body{
+    margin: 0px; 
+    border: 0px; 
+    padding: 0px;
+    /* display: block; */
+    background-image: url(plane.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 ,h3 ,p{
+    color: aliceblue;
+}
+.Navigation{
+    background-color: rgba(25, 25, 24, 0.873);
+    /* background-image: linear-gradient(rgba(0, 0, 0),rgba(5, 9, 59, 0),rgba(24, 3, 54, 0)); */
+    width: 100%; 
+    height: 120px; 
+    display: block;
+
+}
+
+.Name {
+    margin: 0px; 
+    border: 0px; 
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.Name h1{
+    margin: 0px; 
+    border: 0px; 
+    padding: 0px;
+    Padding-top: 20px;
+    padding-left: 100px;
+}
+
+.Nav-Div{
+    width: max-content;
+    text-align: center;
+    margin: 0 auto;
+
+
+}
+
+.Nav-Div ul{
+    text-align: center;
+    list-style: none;
+    display: flex; 
+}
+
+.Nav-Div ul a{
+    text-decoration: none;
+    color: white;
+    
+    
+}
+
+.Nav-Div ul a li{
+    margin-left: 50px;
+    font-size: x-large;
+}
+
+.Main-body{
+    background-color: rgb(203, 200, 197);
+    text-align: center;
+    align-content: center;
+    color: white;
+    width: 100%;
+    height: 500px;
+    background-image: url(Traval.jpeg);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.Second-Div{
+    background-color: white;
+    /* border-style:ridge; */
+    background-image: url(2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: 5px 5px 10px black;
+    margin-left: 2.5%;
+    margin-top: -10%;
+    width: 95%;
+    height: 500px;
+    display: block;
+}
+
+.detils{
+    width: calc(90%/3);
+    height: 350px;
+    margin-top: 25px;
+    margin-left: calc(10%/6);
+    margin-right: calc(10%/6);
+    text-align: center;
+    /* background-color: red; */
+}
+
+.detils img{
+    height: 290px;
+}
+
+.AboutUs-Div{
+    background-color: white;
+    background-image: url(2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* border-style:ridge; */
+    box-shadow: 5px 5px 10px black;
+    margin-left: 2.5%;
+    /* margin-top: -10%; */
+    width: 95%;
+    height: 500px;
+    display: block;
+}

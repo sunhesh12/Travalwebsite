@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(36, 35, 35);
+    background-image: url(desktop-wallpaper-shattered-glasses-background-black-shattered-glass.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+}
+.calculator {
+    margin-top: 150px;
+    background: gray;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.display {
+    width: 90%;
+    padding: 5%;
+    font-size: 2em;
+    text-align: right;
+    margin-bottom: 10px;
+    background-image: linear-gradient(rgb(207, 199, 199),rgb(71, 66, 66));
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.buttons button {
+    padding: 20px;
+    font-size: 1.5em;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: rgb(98, 96, 96);
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.buttons button:hover {
+    background: rgb(36, 35, 35);
+}
+.buttons .equal {
+    grid-column: span 4;
+    background: black;
+    color: white;
+}
+.buttons .equal:hover {
+    background: rgb(48, 47, 47);
+}
+
+.buttons .cal-mark{
+    background: black; 
+    color: white;
+}
